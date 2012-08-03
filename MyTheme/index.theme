@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Emtrion
-Comment=Ubuntu Emtrion theme
+Name=MyTheme
+Comment=Ubuntu MyTheme theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Emtrion
-MetacityTheme=Emtrion
+GtkTheme=MyTheme
+MetacityTheme=MyTheme
 IconTheme=ubuntu-mono-dark
 CursorTheme=DMZ-White
 ButtonLayout=:minimize,maximize,close
