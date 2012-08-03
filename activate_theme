@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ -d "${HOME}/.themes/MyTheme/gtk-2.0" ] &&
+   [ -d "${HOME}/.themes/MyTheme/metacity-1" ]; then
+	gconftool-2 -s /desktop/gnome/interface/gtk_theme -t string MyTheme
+	gconftool-2 -s /apps/metacity/general/theme -t string MyTheme
+else
+	echo "Error: MyTheme theme is not installed!"
+	exit 1
+fi
+
